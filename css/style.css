@@ -318,16 +318,6 @@ footer {
   background-color: var(--primary-color);
 }
 
-/* .footer article:last-child a {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  padding: 0.6rem 0.8rem;
-  background-color: orange;
-  margin-top: 0.7rem;
-} */
-
 .footer a:hover {
   background-color: var(--light-grey-color) !important;
   color: black !important;
@@ -779,4 +769,35 @@ FOR MOBILE
   width: 300px;
   height: 230px;
   object-fit: cover;
+}
+
+.img-mini{
+  width: 180px;
+  height: 180px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+.left-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.single-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.row-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.description {
+  font-size: 14px;
 }
